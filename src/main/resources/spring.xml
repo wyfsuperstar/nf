@@ -11,7 +11,7 @@
     <!-- 引入属性文件 -->
     <context:property-placeholder location="classpath:database.properties" />
 
-    <!-- 自动扫描dao和service包(自动注入) -->
-    <context:component-scan base-package="com.nf.dao,com.nf.impl,com.nf.service,com.nf.controller" />
+    <!-- 自动扫描有@Autowired包(自动注入) -->
+    <context:component-scan base-package="com.nf.impl,com.nf.service,com.nf.controller" />
 
 </beans>
