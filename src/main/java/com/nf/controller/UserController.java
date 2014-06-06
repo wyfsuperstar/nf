@@ -17,7 +17,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/reg")
+    @RequestMapping("/index")
     public String register() {
         return "index";
     }
